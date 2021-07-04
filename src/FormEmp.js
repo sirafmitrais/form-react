@@ -26,8 +26,8 @@ class FormEmp extends React.Component{
                         <label>
                             Name
                         </label>
-                        <input name="name" onChange={(elem) => {
-                            this.updateState('name', elem.target.value)
+                        <input name="name" onChange={(data) => {
+                            this.updateState('name', data.target.value)
                         }}>
                         </input>
                     </div>
@@ -35,8 +35,8 @@ class FormEmp extends React.Component{
                         <label>
                             Phone
                         </label>
-                        <input name="phone" onChange={(elem) => {
-                            this.updateState('phone', elem.target.value)
+                        <input name="phone" onChange={(data) => {
+                            this.updateState('phone', data.target.value)
                         }}>
                         </input>
                     </div>
@@ -44,8 +44,8 @@ class FormEmp extends React.Component{
                         <label>
                             Email
                         </label>
-                        <input name="email" onChange={(elem) => {
-                            this.updateState('email', elem.target.value)
+                        <input name="email" onChange={(data) => {
+                            this.updateState('email', data.target.value)
                         }} class="form-input mt-1 block w-full">
                         </input>
                     </div>
@@ -53,8 +53,8 @@ class FormEmp extends React.Component{
                         <label>
                             Birthdate
                         </label>
-                        <input name="name" onChange={(elem) => {
-                            this.updateState('birthdate', elem.target.value)
+                        <input name="name" onChange={(data) => {
+                            this.updateState('birthdate', data.target.value)
                         }}>
                         </input>
                     </div>
